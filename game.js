@@ -78,7 +78,7 @@ function display(button)
 function playsound(sound)
 {
     var audio=new Audio();
-    audio.src="sounds/"+sound+".mp3";
+    audio.src=sound+".mp3";
     audio.play();
 }
 
