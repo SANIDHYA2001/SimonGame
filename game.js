@@ -78,7 +78,7 @@ function display(button)
 function playsound(sound)
 {
     var audio=new Audio();
-    audio.src="./"+sound+".mp3";
+    audio.src="https://sanidhya2001.github.io/SimonGame/"+sound+".mp3";
     audio.play();
 }
 
